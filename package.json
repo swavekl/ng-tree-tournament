@@ -1,0 +1,59 @@
+{
+  "name": "ng-tournament-tree",
+  "version": "2.0.2",
+  "author": "Oliver Happe",
+  "description": "Tournament-Tree render components for Angular. Includes single- and double-elimination trees. You can also customize how a match is displayed by providing your own component.",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/joermunG/tournament-tree.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/joermunG/tournament-tree/issues"
+  },
+  "homepage": "https://gitlab.com/joermunG/tournament-tree",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "ng",
+    "tournament",
+    "tournament-tree",
+    "tournament-bracket",
+    "bracket",
+    "flow-chart",
+    "chart",
+    "tree",
+    "scss",
+    "components",
+    "match"
+  ],
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  },
+  "module": "fesm2015/ng-tournament-tree.mjs",
+  "es2020": "fesm2020/ng-tournament-tree.mjs",
+  "esm2020": "esm2020/ng-tournament-tree.mjs",
+  "fesm2020": "fesm2020/ng-tournament-tree.mjs",
+  "fesm2015": "fesm2015/ng-tournament-tree.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ng-tournament-tree.mjs",
+      "es2020": "./fesm2020/ng-tournament-tree.mjs",
+      "es2015": "./fesm2015/ng-tournament-tree.mjs",
+      "node": "./fesm2015/ng-tournament-tree.mjs",
+      "default": "./fesm2020/ng-tournament-tree.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}

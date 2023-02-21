@@ -1,0 +1,1 @@
+{"version":3,"file":"interfaces.d.ts","sourceRoot":"","sources":["../../../../projects/ng-tournament-tree/src/lib/declarations/interfaces.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,cAAc;IAC7B,MAAM,EAAE,SAAS,EAAE,CAAC;CACrB;AAED,MAAM,WAAW,SAAS;IACxB;;;OAGG;IACH,IAAI,EAAE,eAAe,GAAG,cAAc,GAAG,OAAO,CAAC;IACjD,OAAO,EAAE,GAAG,EAAE,CAAC;CAChB"}
