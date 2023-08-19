@@ -10,6 +10,6 @@ export declare class SingleEliminationTreeComponent implements OnInit, OnChanges
     ngOnInit(): void;
     ngOnChanges(changes: SimpleChanges): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<SingleEliminationTreeComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<SingleEliminationTreeComponent, "ngtt-single-elimination-tree", never, { "matchTemplate": "matchTemplate"; "tournament": "tournament"; }, {}, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<SingleEliminationTreeComponent, "ngtt-single-elimination-tree", never, { "matchTemplate": { "alias": "matchTemplate"; "required": false; }; "tournament": { "alias": "tournament"; "required": false; }; }, {}, never, never, false, never>;
 }
 //# sourceMappingURL=single-elimination-tree.component.d.ts.map

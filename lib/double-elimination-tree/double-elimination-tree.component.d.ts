@@ -10,6 +10,6 @@ export declare class DoubleEliminationTreeComponent implements OnChanges {
     constructor();
     ngOnChanges(changes: SimpleChanges): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<DoubleEliminationTreeComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<DoubleEliminationTreeComponent, "ngtt-double-elimination-tree", never, { "matchTemplate": "matchTemplate"; "tournament": "tournament"; }, {}, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<DoubleEliminationTreeComponent, "ngtt-double-elimination-tree", never, { "matchTemplate": { "alias": "matchTemplate"; "required": false; }; "tournament": { "alias": "tournament"; "required": false; }; }, {}, never, never, false, never>;
 }
 //# sourceMappingURL=double-elimination-tree.component.d.ts.map
