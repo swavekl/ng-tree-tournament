@@ -6,7 +6,7 @@ import { Component, Input, NgModule } from '@angular/core';
 function DoubleEliminationTreeComponent_ng_container_2_ng_container_2_ng_container_3_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainer(0);
 } }
-const _c0$1 = function (a0) { return { $implicit: a0 }; };
+const _c0$1 = a0 => ({ $implicit: a0 });
 function DoubleEliminationTreeComponent_ng_container_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
     i0.ɵɵelementStart(1, "div", 8)(2, "div", 5);
@@ -92,14 +92,15 @@ class DoubleEliminationTreeComponent {
             i0.ɵɵproperty("ngForOf", ctx.losersBracket);
         } }, dependencies: [i1.NgForOf, i1.NgTemplateOutlet] }); }
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(DoubleEliminationTreeComponent, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(DoubleEliminationTreeComponent, [{
         type: Component,
         args: [{ selector: 'ngtt-double-elimination-tree', template: "<div class=\"ngtt-de__container\">\r\n  <div class=\"ngtt-de__winners-bracket-wrapper\">\r\n    <ng-container *ngFor=\"let winnersround of winnersBracket\">\r\n      <!--      {{winnersround.round}}-->\r\n      <div class=\"ngtt-de__winners-round-wrapper\">\r\n        <ng-container *ngFor=\"let match of winnersround.matches\">\r\n          <div class=\"ngtt-de__winners-match-wrapper\">\r\n            <div class=\"ngtt-de__match-component-container\">\r\n              <ng-container *ngTemplateOutlet=\"matchTemplate; context:{$implicit: match}\"></ng-container>\r\n            </div>\r\n          </div>\r\n        </ng-container>\r\n      </div>\r\n    </ng-container>\r\n    <div class=\"ngtt-de__winners-round-wrapper\">\r\n      <div class=\"ngtt-de__finale-match-wrapper\">\r\n        <div class=\"ngtt-de__match-component-container\">\r\n          <ng-container *ngTemplateOutlet=\"matchTemplate; context:{$implicit: final.matches[0]}\"></ng-container>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"ngtt-de__losers-bracket-wrapper\">\r\n    <ng-container *ngFor=\"let losersround of losersBracket\">\r\n      <!--      {{losersround.round}}<br>-->\r\n      <div class=\"ngtt-de__losers-round-wrapper\">\r\n        <ng-container *ngFor=\"let match of losersround.matches\">\r\n          <div class=\"ngtt-de__losers-match-wrapper\">\r\n            <div class=\"ngtt-de__match-component-container\">\r\n              <ng-container *ngTemplateOutlet=\"matchTemplate; context:{$implicit: match}\"></ng-container>\r\n            </div>\r\n          </div>\r\n        </ng-container>\r\n      </div>\r\n    </ng-container>\r\n  </div>\r\n</div>\r\n" }]
-    }], function () { return []; }, { matchTemplate: [{
+    }], () => [], { matchTemplate: [{
             type: Input
         }], tournament: [{
             type: Input
         }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(DoubleEliminationTreeComponent, { className: "DoubleEliminationTreeComponent", filePath: "lib\\double-elimination-tree\\double-elimination-tree.component.ts", lineNumber: 9 }); })();
 
 const components$1 = [DoubleEliminationTreeComponent];
 class NgttDoubleEliminationTreeModule {
@@ -107,7 +108,7 @@ class NgttDoubleEliminationTreeModule {
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgttDoubleEliminationTreeModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule] }); }
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgttDoubleEliminationTreeModule, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgttDoubleEliminationTreeModule, [{
         type: NgModule,
         args: [{
                 declarations: components$1,
@@ -122,7 +123,7 @@ class NgttDoubleEliminationTreeModule {
 function SingleEliminationTreeComponent_ng_container_2_ng_container_2_ng_container_3_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainer(0);
 } }
-const _c0 = function (a0) { return { $implicit: a0 }; };
+const _c0 = a0 => ({ $implicit: a0 });
 function SingleEliminationTreeComponent_ng_container_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
     i0.ɵɵelementStart(1, "div", 4)(2, "div", 9);
@@ -158,7 +159,7 @@ function SingleEliminationTreeComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementEnd();
 } if (rf & 2) {
     const ctx_r2 = i0.ɵɵnextContext();
-    i0.ɵɵadvance(1);
+    i0.ɵɵadvance();
     i0.ɵɵproperty("ngTemplateOutlet", ctx_r2.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0, ctx_r2.final.matches[1]));
 } }
 class SingleEliminationTreeComponent {
@@ -195,18 +196,19 @@ class SingleEliminationTreeComponent {
             i0.ɵɵproperty("ngForOf", ctx.winnersBracket);
             i0.ɵɵadvance(6);
             i0.ɵɵproperty("ngTemplateOutlet", ctx.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(4, _c0, ctx.final.matches[0]));
-            i0.ɵɵadvance(1);
+            i0.ɵɵadvance();
             i0.ɵɵproperty("ngIf", ctx.final.matches.length > 1);
         } }, dependencies: [i1.NgForOf, i1.NgIf, i1.NgTemplateOutlet] }); }
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(SingleEliminationTreeComponent, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(SingleEliminationTreeComponent, [{
         type: Component,
         args: [{ selector: 'ngtt-single-elimination-tree', template: "<div class=\"ngtt-se__container\">\r\n  <div class=\"ngtt-se__bracket-wrapper\">\r\n    <ng-container *ngFor=\"let winnersround of winnersBracket; let i = index\">\r\n      <div class=\"ngtt-se__round-wrapper\">\r\n        <ng-container *ngFor=\"let match of winnersround.matches\">\r\n          <div class=\"ngtt-se__match-wrapper\">\r\n            <div class=\"ngtt-se__match-component-container\">\r\n              <ng-container *ngTemplateOutlet=\"matchTemplate; context:{$implicit: match}\"></ng-container>\r\n            </div>\r\n          </div>\r\n        </ng-container>\r\n      </div>\r\n    </ng-container>\r\n    <ng-container>\r\n      <div class=\"ngtt-se__round-wrapper\">\r\n        <div class=\"ngtt-se__match-wrapper\">\r\n          <div class=\"ngtt-se__finale-match-wrapper\">\r\n            <div class=\"ngtt-se__finale-component-container\">\r\n              <ng-container\r\n                *ngTemplateOutlet=\"matchTemplate; context:{$implicit: final.matches[0]}\"></ng-container>\r\n            </div>\r\n            <div class=\"ngtt-se__match-component-container\" *ngIf=\"final.matches.length > 1\">\r\n              <ng-container *ngTemplateOutlet=\"matchTemplate; context:{$implicit: final.matches[1]}\"></ng-container>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </ng-container>\r\n  </div>\r\n</div>\r\n" }]
-    }], function () { return []; }, { matchTemplate: [{
+    }], () => [], { matchTemplate: [{
             type: Input
         }], tournament: [{
             type: Input
         }] }); })();
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(SingleEliminationTreeComponent, { className: "SingleEliminationTreeComponent", filePath: "lib\\single-elimination-tree\\single-elimination-tree.component.ts", lineNumber: 9 }); })();
 
 const components = [SingleEliminationTreeComponent];
 class NgttSingleEliminationTreeModule {
@@ -214,7 +216,7 @@ class NgttSingleEliminationTreeModule {
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgttSingleEliminationTreeModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule] }); }
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgttSingleEliminationTreeModule, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgttSingleEliminationTreeModule, [{
         type: NgModule,
         args: [{
                 declarations: components,
@@ -229,6 +231,7 @@ class NgttSingleEliminationTreeModule {
 /*
  * Public API Surface of ng-tournament-tree
  */
+// export * from './lib/ng-tournament-tree.module';
 
 /**
  * Generated bundle index. Do not edit.
