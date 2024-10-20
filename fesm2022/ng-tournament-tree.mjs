@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import * as i0 from '@angular/core';
 import { Component, Input, NgModule } from '@angular/core';
 
+const _c0$1 = a0 => ({ $implicit: a0 });
 function DoubleEliminationTreeComponent_ng_container_2_ng_container_2_ng_container_3_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainer(0);
 } }
-const _c0$1 = a0 => ({ $implicit: a0 });
 function DoubleEliminationTreeComponent_ng_container_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
     i0.ɵɵelementStart(1, "div", 8)(2, "div", 5);
@@ -14,10 +14,10 @@ function DoubleEliminationTreeComponent_ng_container_2_ng_container_2_Template(r
     i0.ɵɵelementEnd()();
     i0.ɵɵelementContainerEnd();
 } if (rf & 2) {
-    const match_r5 = ctx.$implicit;
-    const ctx_r4 = i0.ɵɵnextContext(2);
+    const match_r1 = ctx.$implicit;
+    const ctx_r1 = i0.ɵɵnextContext(2);
     i0.ɵɵadvance(3);
-    i0.ɵɵproperty("ngTemplateOutlet", ctx_r4.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0$1, match_r5));
+    i0.ɵɵproperty("ngTemplateOutlet", ctx_r1.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0$1, match_r1));
 } }
 function DoubleEliminationTreeComponent_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
@@ -43,10 +43,10 @@ function DoubleEliminationTreeComponent_ng_container_8_ng_container_2_Template(r
     i0.ɵɵelementEnd()();
     i0.ɵɵelementContainerEnd();
 } if (rf & 2) {
-    const match_r9 = ctx.$implicit;
-    const ctx_r8 = i0.ɵɵnextContext(2);
+    const match_r4 = ctx.$implicit;
+    const ctx_r1 = i0.ɵɵnextContext(2);
     i0.ɵɵadvance(3);
-    i0.ɵɵproperty("ngTemplateOutlet", ctx_r8.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0$1, match_r9));
+    i0.ɵɵproperty("ngTemplateOutlet", ctx_r1.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0$1, match_r4));
 } }
 function DoubleEliminationTreeComponent_ng_container_8_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
@@ -55,9 +55,9 @@ function DoubleEliminationTreeComponent_ng_container_8_Template(rf, ctx) { if (r
     i0.ɵɵelementEnd();
     i0.ɵɵelementContainerEnd();
 } if (rf & 2) {
-    const losersround_r7 = ctx.$implicit;
+    const losersround_r5 = ctx.$implicit;
     i0.ɵɵadvance(2);
-    i0.ɵɵproperty("ngForOf", losersround_r7.matches);
+    i0.ɵɵproperty("ngForOf", losersround_r5.matches);
 } }
 class DoubleEliminationTreeComponent {
     constructor() {
@@ -73,7 +73,7 @@ class DoubleEliminationTreeComponent {
             return round.type === 'Final';
         }).shift();
     }
-    static { this.ɵfac = function DoubleEliminationTreeComponent_Factory(t) { return new (t || DoubleEliminationTreeComponent)(); }; }
+    static { this.ɵfac = function DoubleEliminationTreeComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || DoubleEliminationTreeComponent)(); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: DoubleEliminationTreeComponent, selectors: [["ngtt-double-elimination-tree"]], inputs: { matchTemplate: "matchTemplate", tournament: "tournament" }, features: [i0.ɵɵNgOnChangesFeature], decls: 9, vars: 6, consts: [[1, "ngtt-de__container"], [1, "ngtt-de__winners-bracket-wrapper"], [4, "ngFor", "ngForOf"], [1, "ngtt-de__winners-round-wrapper"], [1, "ngtt-de__finale-match-wrapper"], [1, "ngtt-de__match-component-container"], [4, "ngTemplateOutlet", "ngTemplateOutletContext"], [1, "ngtt-de__losers-bracket-wrapper"], [1, "ngtt-de__winners-match-wrapper"], [1, "ngtt-de__losers-round-wrapper"], [1, "ngtt-de__losers-match-wrapper"]], template: function DoubleEliminationTreeComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵelementStart(0, "div", 0)(1, "div", 1);
             i0.ɵɵtemplate(2, DoubleEliminationTreeComponent_ng_container_2_Template, 3, 1, "ng-container", 2);
@@ -104,7 +104,7 @@ class DoubleEliminationTreeComponent {
 
 const components$1 = [DoubleEliminationTreeComponent];
 class NgttDoubleEliminationTreeModule {
-    static { this.ɵfac = function NgttDoubleEliminationTreeModule_Factory(t) { return new (t || NgttDoubleEliminationTreeModule)(); }; }
+    static { this.ɵfac = function NgttDoubleEliminationTreeModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgttDoubleEliminationTreeModule)(); }; }
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgttDoubleEliminationTreeModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule] }); }
 }
@@ -120,10 +120,10 @@ class NgttDoubleEliminationTreeModule {
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(NgttDoubleEliminationTreeModule, { declarations: [DoubleEliminationTreeComponent], imports: [CommonModule], exports: [DoubleEliminationTreeComponent] }); })();
 
+const _c0 = a0 => ({ $implicit: a0 });
 function SingleEliminationTreeComponent_ng_container_2_ng_container_2_ng_container_3_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainer(0);
 } }
-const _c0 = a0 => ({ $implicit: a0 });
 function SingleEliminationTreeComponent_ng_container_2_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
     i0.ɵɵelementStart(1, "div", 4)(2, "div", 9);
@@ -131,10 +131,10 @@ function SingleEliminationTreeComponent_ng_container_2_ng_container_2_Template(r
     i0.ɵɵelementEnd()();
     i0.ɵɵelementContainerEnd();
 } if (rf & 2) {
-    const match_r6 = ctx.$implicit;
-    const ctx_r5 = i0.ɵɵnextContext(2);
+    const match_r1 = ctx.$implicit;
+    const ctx_r1 = i0.ɵɵnextContext(2);
     i0.ɵɵadvance(3);
-    i0.ɵɵproperty("ngTemplateOutlet", ctx_r5.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0, match_r6));
+    i0.ɵɵproperty("ngTemplateOutlet", ctx_r1.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0, match_r1));
 } }
 function SingleEliminationTreeComponent_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵelementContainerStart(0);
@@ -158,9 +158,9 @@ function SingleEliminationTreeComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     i0.ɵɵtemplate(1, SingleEliminationTreeComponent_div_9_ng_container_1_Template, 1, 0, "ng-container", 7);
     i0.ɵɵelementEnd();
 } if (rf & 2) {
-    const ctx_r2 = i0.ɵɵnextContext();
+    const ctx_r1 = i0.ɵɵnextContext();
     i0.ɵɵadvance();
-    i0.ɵɵproperty("ngTemplateOutlet", ctx_r2.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0, ctx_r2.final.matches[1]));
+    i0.ɵɵproperty("ngTemplateOutlet", ctx_r1.matchTemplate)("ngTemplateOutletContext", i0.ɵɵpureFunction1(2, _c0, ctx_r1.final.matches[1]));
 } }
 class SingleEliminationTreeComponent {
     constructor() {
@@ -179,7 +179,7 @@ class SingleEliminationTreeComponent {
         }).shift();
         console.log(this.final);
     }
-    static { this.ɵfac = function SingleEliminationTreeComponent_Factory(t) { return new (t || SingleEliminationTreeComponent)(); }; }
+    static { this.ɵfac = function SingleEliminationTreeComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || SingleEliminationTreeComponent)(); }; }
     static { this.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: SingleEliminationTreeComponent, selectors: [["ngtt-single-elimination-tree"]], inputs: { matchTemplate: "matchTemplate", tournament: "tournament" }, features: [i0.ɵɵNgOnChangesFeature], decls: 10, vars: 6, consts: [[1, "ngtt-se__container"], [1, "ngtt-se__bracket-wrapper"], [4, "ngFor", "ngForOf"], [1, "ngtt-se__round-wrapper"], [1, "ngtt-se__match-wrapper"], [1, "ngtt-se__finale-match-wrapper"], [1, "ngtt-se__finale-component-container"], [4, "ngTemplateOutlet", "ngTemplateOutletContext"], ["class", "ngtt-se__match-component-container", 4, "ngIf"], [1, "ngtt-se__match-component-container"]], template: function SingleEliminationTreeComponent_Template(rf, ctx) { if (rf & 1) {
             i0.ɵɵelementStart(0, "div", 0)(1, "div", 1);
             i0.ɵɵtemplate(2, SingleEliminationTreeComponent_ng_container_2_Template, 3, 1, "ng-container", 2);
@@ -212,7 +212,7 @@ class SingleEliminationTreeComponent {
 
 const components = [SingleEliminationTreeComponent];
 class NgttSingleEliminationTreeModule {
-    static { this.ɵfac = function NgttSingleEliminationTreeModule_Factory(t) { return new (t || NgttSingleEliminationTreeModule)(); }; }
+    static { this.ɵfac = function NgttSingleEliminationTreeModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgttSingleEliminationTreeModule)(); }; }
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgttSingleEliminationTreeModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule] }); }
 }
