@@ -1,6 +1,6 @@
 {
   "name": "ng-tournament-tree",
-  "version": "18.2.8",
+  "version": "19.2.15",
   "author": "Oliver Happe",
   "description": "Tournament-Tree render components for Angular. Includes single- and double-elimination trees. You can also customize how a match is displayed by providing your own component.",
   "repository": {
@@ -30,8 +30,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^18.2.8",
-    "@angular/core": "^18.2.8"
+    "@angular/common": "^19.2.15",
+    "@angular/core": "^19.2.15"
   },
   "module": "fesm2022/ng-tournament-tree.mjs",
   "typings": "index.d.ts",
@@ -41,8 +41,6 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/ng-tournament-tree.mjs",
-      "esm": "./esm2022/ng-tournament-tree.mjs",
       "default": "./fesm2022/ng-tournament-tree.mjs"
     }
   },
